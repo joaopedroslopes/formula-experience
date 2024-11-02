@@ -1,0 +1,61 @@
+[
+    {
+
+        "firstPosition": {
+            "name": "Pascal",
+            "surname": "Wehrlein",
+            "team": "TAG Heuer Porsche",
+            "team_color": "#d5001c",
+            "time": "50:15:506"
+        },
+        "secondPosition": {
+            "name": "Sébastien",
+            "surname": "Buemi",
+            "team": "Envision",
+            "team_color": "#00be26",
+            "time": "+ 0:01:162"
+        },
+        "thirdPosition": {
+            "name": "Nick",
+            "surname": "Cassidy",
+            "team": "Jaguar TCS",
+            "team_color": "#000",
+            "time": "+ 0:02:079"
+        },
+        "fourthPosition": {
+            "name": "Maximilian",
+            "surname": "Günther",
+            "team": "Maserati MSG",
+            "team_color": "#001489",
+            "time": "+ 0:05:780"
+        },
+        "fifthPosition": {
+            "name": "Jake",
+            "surname": "Dennis",
+            "team": "Avalanche Andretti",
+            "team_color": "#ff0000",
+            "time": "+ 0:07:123"
+        },
+        "sixthPosition": {
+            "name": "Jean-Éric",
+            "surname": "Vergne",
+            "team": "DS Penske",
+            "team_color": "#ffcc00",
+            "time": "+ 0:09:456"
+        },
+        "seventhPosition": {
+            "name": "Mitch",
+            "surname": "Evans",
+            "team": "Jaguar TCS",
+            "team_color": "#000",
+            "time": "+ 0:11:789"
+        },
+        "eighthPosition": {
+            "name": "Stoffel",
+            "surname": "Vandoorne",
+            "team": "DS Penske",
+            "team_color": "#ffcc00",
+            "time": "+ 0:13:012"
+        }
+    }
+]

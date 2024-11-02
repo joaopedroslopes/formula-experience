@@ -1,12 +1,19 @@
+import Chat from "./components/Chat"
+import Classificacao from "./components/Classificacao"
+import Header from "./components/Header"
+
 function App() {
 
   return (
-    <>
-		<div className="h-screen w-screen bg-dark-blue">
-			<h1 className="text-white text-3xl font-semibold">Formula experience</h1>
-			<p>teste</p>
+	<>
+		<Header />
+		<div className="h-screen w-screen bg-dark-blue pt-24 pb-10 px-20">
+			<div className="flex justify-between h-full">				
+				<Classificacao />
+				<Chat />
+			</div>
 		</div>
-    </>
+	</>
   )
 }
 

@@ -8,6 +8,8 @@ export default {
     extend: {
       colors: {
         'dark-blue': '#00005A',
+        'header-blue': '#001876',
+        'shiny-blue': '#0024AD'
       }
     },
   },
