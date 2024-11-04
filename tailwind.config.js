@@ -9,7 +9,8 @@ export default {
       colors: {
         'dark-blue': '#00005A',
         'header-blue': '#001876',
-        'shiny-blue': '#0024AD'
+        'shiny-blue': '#0024AD',
+        'mid-blue': '#080ca5'
       }
     },
   },

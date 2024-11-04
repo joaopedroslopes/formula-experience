@@ -5,11 +5,7 @@ function Header() {
     return (
         <>
             <div className="header-container z-[200] fixed flex items-center w-full px-10 py-4">
-                <div className="fixed logo-container size-fit">
-                    <a to="/Home">
-                        <img src="../../public/logo.svg" alt="Logo da Fórmula E" className="w-44 hover:cursor-pointer" onClick={awarning} />
-                    </a>
-                </div>
+                
 
                 <nav className="mx-auto py-1 px-8 text-xl font-normal text-light-grey rounded-full bg-header-blue bg-opacity-55 backdrop-blur-[2px] border border-light-grey/40">
                     <ul className="flex gap-11">

@@ -3,7 +3,7 @@ import positions from '../data/positions.json';
 function Classificacao() {
     return (
         <>
-            <div className="w-[400px] h-4/6 border border-shiny-blue rounded-lg flex flex-col justify-between">
+            <div className="w-[400px] h-full border border-shiny-blue rounded-lg flex flex-col justify-between">
                 <div className="flex justify-between border-b-[1px] border-shiny-blue py-4 px-6">
                     <p className="text-white">Classificação</p>
                     <p className="text-white">X</p>
