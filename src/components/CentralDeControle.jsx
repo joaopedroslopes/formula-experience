@@ -3,9 +3,13 @@ import { LuPhoneOff } from "react-icons/lu";
 import { IoChevronDown } from "react-icons/io5";
 
 function CentralDeControle() {
+
+    const buttonStyle = "text-slate-300 px-8 md:px-6 sm:px-4 py-2 bg-shiny-blue rounded-lg hover:bg-mid-blue text-base md:text-sm sm:text-xs";
+
+
     return ( 
         <>
-            <div className="h-full w-full border border-shiny-blue rounded-lg flex justify-around items-center">
+            <div className="min-h-[370px] w-full border border-shiny-blue rounded-lg flex flex-col xl:flex-row justify-around items-center py-10 xl:py-0">
 
                 <div className="flex flex-col gap-2 items-center">
                     <img src="./plateia.svg" alt="" />
@@ -17,7 +21,7 @@ function CentralDeControle() {
                 </div>
 
                 {/* LINHA AZUL */}
-                <div className="h-[90%] border border-shiny-blue"></div>
+                <div className="xl:min-h-[330px] xl:h-[90%] xl:w-0 w-[90%] my-8 xl:mx-3 border border-shiny-blue"></div>
 
                 <div className="flex flex-col gap-3 items-center">
 
@@ -25,33 +29,40 @@ function CentralDeControle() {
 
                     <div className="flex items-center gap-10">
                         <div className="flex flex-col gap-3">
-                            <button className="text-slate-300 px-8 py-2 bg-shiny-blue rounded-lg hover:bg-mid-blue">Cam 1</button>
-                            <button className="text-slate-300 px-8 py-2 bg-shiny-blue rounded-lg hover:bg-mid-blue">Start Line</button>
-                            <button className="text-slate-300 px-8 py-2 bg-shiny-blue rounded-lg hover:bg-mid-blue">Cam 2</button>
+                            <button className={buttonStyle}>Cam 1</button>
+                            <button className={buttonStyle}>Start Line</button>
+                            <button className={buttonStyle}>Cam 2</button>
                         </div>
 
-                        <img src="./minimap-outro.svg" alt="pequeno mapa da corrida" className="-my-16" />
+                        <img src="./minimap-outro.svg" alt="pequeno mapa da corrida" className="-my-16 hidden 2xl:block" />
 
                         <div className="flex flex-col gap-3">
-                            <button className="text-slate-300 px-8 py-2 bg-shiny-blue rounded-lg hover:bg-mid-blue">Cam 3</button>
-                            <button className="text-slate-300 px-8 py-2 bg-shiny-blue rounded-lg hover:bg-mid-blue">Cam 4</button>
-                            <button className="text-slate-300 px-8 py-2 bg-shiny-blue rounded-lg hover:bg-mid-blue">Tunel</button>
+                            <button className={buttonStyle}>Cam 3</button>
+                            <button className={buttonStyle}>Cam 4</button>
+                            <button className={buttonStyle}>Tunel</button>
                         </div>
 
                     </div>
                     <div className="">
-                        <div className="flex gap-3 items-center">
-                            <button className="text-slate-300 px-8 h-fit py-2 bg-shiny-blue rounded-lg hover:bg-mid-blue">Cabine</button>
-                            <button className="text-slate-300 px-8 h-fit py-2 bg-shiny-blue rounded-lg hover:bg-mid-blue">Aereo</button>
+                        <div className="flex flex-row gap-3 items-center">
+                            <div className="flex gap-3 flex-col xl:flex-row">
+                                <button className={buttonStyle}>Cabine</button>
+                                <button className={buttonStyle}>Aereo</button>
+                            </div>
+                            
                             <button className="text-slate-300 p-8 bg-shiny-blue rounded-full hover:bg-red-600 border">ON</button>
-                            <button className="text-slate-300 px-8 h-fit py-2 bg-shiny-blue rounded-lg hover:bg-mid-blue">Pit Stop</button>
-                            <button className="text-slate-300 px-8 h-fit py-2 bg-shiny-blue rounded-lg hover:bg-mid-blue">Torcida</button>
+
+                            <div className="flex gap-3 flex-col xl:flex-row">
+                                <button className={buttonStyle}>PitStop</button>
+                                <button className={buttonStyle}>Torcida</button>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
 
                 {/* LINHA AZUL */}
-                <div className="h-[90%] border border-shiny-blue"></div>
+                <div className="xl:min-h-[330px] xl:h-[90%] xl:w-0 w-[90%] my-8 xl:mx-3 border border-shiny-blue"></div>
 
                 <div className="flex flex-col gap-4 items-center">
                     <div className="flex flex-col items-center">
@@ -64,13 +75,13 @@ function CentralDeControle() {
                         </div>
                         
                         <div className="flex gap-3">
-                            <button className="text-slate-300 px-8 py-2 bg-shiny-blue rounded-lg hover:bg-mid-blue">Frente</button>
-                            <button className="text-slate-300 px-8 py-2 bg-shiny-blue rounded-lg hover:bg-mid-blue">Piloto</button>
-                            <button className="text-slate-300 px-8 py-2 bg-shiny-blue rounded-lg hover:bg-mid-blue">Traseira</button>
+                            <button className={buttonStyle}>Frente</button>
+                            <button className={buttonStyle}>Piloto</button>
+                            <button className={buttonStyle}>Traseira</button>
                         </div>
                     </div>
                     <div>
-                        <img src="./stats.svg" alt="" />
+                        <img src="./stats.svg" alt="estatisticas" />
                     </div>
                 </div>
 

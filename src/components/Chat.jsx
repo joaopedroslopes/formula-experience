@@ -15,7 +15,7 @@ function Chat() {
 
     return (
         <>
-            <div className="w-[400px] h-full border border-shiny-blue rounded-lg flex flex-col justify-between">
+            <div className="w-full md:w-[400px] border border-shiny-blue rounded-lg flex flex-col justify-between">
                 <div className="flex justify-between border-b-[1px] border-shiny-blue py-4 px-6">
                     <p className="text-white">Chat ao vivo</p>
                     <p className="text-white">X</p>
